@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="cv_feedback.html">CV Creator Tool FeedBack Form</a>
+        <a href="cv_data_entry_form.html">CV Data Entry Form</a>
+        <a href="it_center_ticket_form.html">IT Center Ticket Form</a>
+        <a href="subscription.html">Subscription Menagment Form</a>
+    </nav>
+
+    <h1>CV Creator Tool Feedback Form</h1>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Details</legend>
+            <label class="extra" for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label class="extra" for="link">Link:</label>
+            <input type="url" name="url" id="link"><br>
+            <label class="extra" for="password">Password:</label>
+            <input type="password" name="password" id="password"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Reasons for Ending Subscription</legend>
+            <label style="font-weight: 700;" for="reason">Select Reason:</label>
+            <select name="reason" id="reason">
+                <option value="Bad quality">Bad quality</option>
+                <option value="Small Size">Small Size</option>
+                <option value="Other" selected>Other</option>
+            </select>
+            <label>Would you use one of our other tools again?</label><br>
+            <input type="radio" name="inquery" value="yes" checked>
+            <label for="inquery">Yes</label><br>
+            <input type="radio" name="inquery" value="no">
+            <label for="inquery">No</label><br>
+            <input type="radio" name="inquery" value="maybe">
+            <label for="inquery">Maybe</label><br>
+            <label for="comments">Additional Comments:</label>
+            <textarea name="comments" id="comments" placeholder="Your comments..."></textarea>
+        </fieldset>
+        <button class="exclude"><img src="image/submit_button.png" alt="submit button"></button>
+
+    </form>
+</body>
+</html>

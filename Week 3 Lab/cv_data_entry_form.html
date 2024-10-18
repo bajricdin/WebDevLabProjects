@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Data Entry Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="cv_feedback.html">CV Creator Tool FeedBack Form</a>
+        <a href="cv_data_entry_form.html">CV Data Entry Form</a>
+        <a href="it_center_ticket_form.html">IT Center Ticket Form</a>
+        <a href="subscription.html">Subscription Menagment Form</a>
+    </nav>
+
+    <h1>CV Data Entry Form</h1>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fname" id="fullname"><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="location">Location:</label>
+            <input type="text" name="location" id="location"><br>
+            <label for="profile_pic">Upload Profile Picture</label>
+            <input type="file" id="file" name="profile_pic">
+        </fieldset>
+        <fieldset>
+            <legend>Introduction</legend>
+            <label for="intro">Write a short introduction about yourself:</label>
+            <textarea name="intro" id="intro"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label>Select your skills:</label><br>
+        
+            <input type="radio" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+        
+            <input type="radio" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+        
+            <input type="radio" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+        
+            <input type="radio" id="react" name="skills" value="React">
+            <label for="react">React</label><br>
+        
+            <input type="radio" id="nodejs" name="skills" value="Node.js">
+            <label for="nodejs">Node.js</label><br>
+        
+            <input type="radio" id="express" name="skills" value="Express">
+            <label for="express">Express</label><br>
+        
+            <input type="radio" id="git" name="skills" value="Git">
+            <label for="git">Git</label><br>
+        
+            <input type="radio" id="wpo" name="skills" value="Web Performance Optimization">
+            <label for="wpo">Web Performance Optimization</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="position">Current position</label>
+            <input type="text" name="position" id="position">
+            <label for="exp_desc">Describe your experience:</label>
+            <textarea name="exp_desc" id="exp_desc"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Education and Certifications</legend>
+            <label for="degree">Degree:</label>
+            <select name="degree" id="degree">
+                <option value="highschool">High School</option>
+                <option value="bachelor">Bachelor Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+            </select>
+            <label for="certifications">Certifications:</label>
+            <textarea name="certifications" id="certifications"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Projects</legend>
+            <label for="projects">Describe your personal projects:</label>
+            <textarea name="projects" id="projects"></textarea>
+        </fieldset>
+        <button>Submit CV</button>
+    </form>
+</body>
+</html>

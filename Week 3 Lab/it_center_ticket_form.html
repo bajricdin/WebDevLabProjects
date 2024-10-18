@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It Center Ticket Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="cv_feedback.html">CV Creator Tool FeedBack Form</a>
+        <a href="cv_data_entry_form.html">CV Data Entry Form</a>
+        <a href="it_center_ticket_form.html">IT Center Ticket Form</a>
+        <a href="subscription.html">Subscription Menagment Form</a>
+    </nav>
+
+    <h1>It Center Ticket Form</h1>
+    <hr>
+    <form action="">
+        <label for="problem">Type of problem:</label>
+        <select name="problem" id="problem">
+            <option value="CV Creator Tool">CV Creator Tool</option>
+            <option value="Data Privacy Concerns">Data Privacy Concerns</option>
+            <option value="Help & Guidance" selected>Help & Guidance</option>
+            <option value="File upload issues">File upload issues</option>
+        </select>
+        <label for="">Select Urgency:</label><br>
+        <input type="radio" name="not_urgent" id="urgency">
+        <label for="not_urgent">Not urgent</label><br>
+        <input type="radio" name="mild" id="mild" checked>
+        <label for="mild">Mild</label><br>
+        <input type="radio" name="high_urgent" id="high_urgent">
+        <label for="high_urgent">High Urgent</label><br>
+        <label for="picture">Upload a Picture(JPG, JPEG, PNG)</label>
+        <input type="file" name="image" accept=".png, .jpg, .jpeg">
+        <button>Submit Ticket</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="cv_feedback.html">CV Creator Tool FeedBack Form</a>
+        <a href="cv_data_entry_form.html">CV Data Entry Form</a>
+        <a href="it_center_ticket_form.html">IT Center Ticket Form</a>
+        <a href="subscription.html">Subscription Menagment Form</a>
+    </nav>
+
+    <h1>CV Creator Tool Feedback Form</h1>
+    <hr>
+    <form action="">
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="name@gmail.com"><br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder=""><br>
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea name="feedback" id="feedback" rows="3" cols="30">Write your feedback:</textarea><br>
+        <label style="text-decoration: underline;" for="hear">How did you hear about our CV Creator Tool:</label>
+        <select name="hear" id="hear">
+            <option value="Youtube">Youtube</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+        </select><br>
+        <input type="checkbox" id="check">
+        <label style="text-decoration: underline; font-weight: 600;" for="check">Sign up for the newsletter</label><br>
+        <label for="" style="font-style: italic;">Would you use this CV Creator Tool Again</label><br>
+        <label for="use">Yes</label><input type="radio" name="use" id="use" value="yes"><br>
+        <label for="use">No</label><input type="radio" name="use" id="use" value="no"><br>
+        <label for="use">Maybe</label><input type="radio" name="use" id="use" value="maybe"><br>
+        <button>Submit Feedback</button>
+
+    </form>
+</body>
+</html>
