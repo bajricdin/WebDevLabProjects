@@ -1,2 +1,2 @@
 # WebDevLabProjects
-Uploading all Lab Tasks for Course Fundamentals of Web Development
+Uploading all Lab Tasks for Fundamentals of Web Development IBU Course
